@@ -1,0 +1,28 @@
+
+web application:
+
+A web application is a software or program which is accessible using any web browser. 
+Its frontend is usually created using languages like HTML, CSS, Javascript, which are supported by major browsers. 
+While the backend could use any programming stack like LAMP, MEAN, etc. Unlike mobile apps, there is no specific SDK for developing web applications.
+
+Why you need a Web Application?
+
+Compared to desktop applications, web applications are easier to maintain by as they use the same code in the entire application. There are no compatibility issues.
+Web applications can be used on any platform: Windows, Linux, Mac… as they all support modern browsers.
+Mobile App store approval not required in web applications.
+Released any time and in any form. No need to remind users to update their applications.
+You can access these web applications 24 hours of the day and 365 days a year from any PC.
+You can either make use of the computer or your mobile device to access the required data.
+Web applications are a cost-effective option for any organization. Seat Licenses for Desktop software are expensive where SasS, are generally, pay as you go.
+Web-Based Apps are Internet-enabled apps that are accessed through the mobile’s web browser. Therefore, you don’t require to download or install them.
+
+website:
+
+A website is a group of globally accessible, interlinked web pages which have a single domain name.
+It can be developed and maintained by an individual, business or organization. 
+The website aims to serve a variety of purposes. Example: Blogs.
+
+A website is hosted on a single or multiple web server.
+It is accessible via a network like the Internet or a private local area network via IP address.
+
+

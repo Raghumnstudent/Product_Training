@@ -1,0 +1,130 @@
+DB InstanceName : 192.168.5.210\MSSQL2K16HADEVSE
+Login : readonly_user
+Password : readonly_user
+
+
+
+DB name : Jiva_65_dev
+
+
+
+
+--Search objects or tables using like operator example master table name start with master
+select * from sys.tables where name like 'code%'
+
+
+
+EXAMPLES
+
+Before writing any query you must the bellow command for specifying where we accessing the data
+
+use jiva_65_dev
+
+----------------
+
+MASTER TABLE :-
+
+master_qstn
+master_ans
+
+just write bellow query to see data
+
+select * from sys.tables where name like 'master%'
+select * from sys.tables where name like 'master_ans'
+select * from sys.tables where name like 'master_qstn'
+
+
+-----------------
+
+
+CONFIG TABLES:-
+
+config_xml
+config_col
+config_tab
+config_code_tab
+
+just write bellow query to see data
+
+select * from 'config_xml'
+select * from sys.tables where name like 'config_col'
+select * from sys.tables where name like 'config_tab'
+select * from sys.tables where name like 'config_col_tab'
+------------------
+
+
+CODE TABLES:-
+
+code_enc_type
+code_decision
+code_decision_rsn
+
+just write bellow query to see data
+
+select * from sys.tables where name like 'code_enc_type'
+select * from sys.tables where name like 'code_decision'
+select * from sys.tables where name like 'code_decision_rsn'
+
+----------------
+
+LOG TABLES:-
+sre_log
+
+just write bellow query to see data
+
+select * from sys.tables where name like 'sre_log'
+
+
+----------------
+
+
+HISTORY TABLES :-
+
+mbr_addr_hist
+mbr_name_hist
+
+
+----------------
+
+
+
+
+
+USER TABLES:-
+sys_user
+user_roles
+
+
+-------------------------------
+Morning Executed some queries:
+
+Before writing any query you must the bellow command for specifying where we accessing the data
+
+use jiva_65_dev
+
+select top 10 * from v_mbr_enc with(nolock)
+select top 10 * from audit_mbr_enc_hx with(nolock) order by 1 desc
+select top 10 * from hist.mbr_hist with(nolock) order by 1 desc
+select * from mbr
+select * from mbr where mbr_idn=197399
+select * from mbr_enc
+select * from mbr_enc where enc_idn=374752
+
+
+Evening executed queries:
+
+Before writing any query you must the bellow command for specifying where we accessing the data
+
+use jiva_65_dev
+
+select top 10 * from dbo.mbr_enc with(nolock) order by 1 desc
+select top 10 * from mbr with(nolock) order by 1 desc
+select * from CODE_ENC_TYPE with(nolock)
+select * from code_episode_class with(nolock)
+select * from config_tab with(nolock)
+select * from config_col with(nolock)
+select top 10 * from master_ace_title with(nolock)
+select top 10 * from log_sysusers with(nolock)
+select top 10 * from v_mbr_enc with(nolock)
+
+

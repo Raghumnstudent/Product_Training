@@ -1,0 +1,31 @@
+*SQLcodegen is used to generate the code by communicating with database
+
+
+*Put your username: jiva_65dev_user
+*Put Your Password: J!va_6S03V_user@jiva_65_dev
+
+
+
+
+*commands for SQLcodegen
+
+pip install sqlacodegen
+
+sudo pip install pyodbc
+
+export ODBCSYSINI="/home/uswapnil/dev65/jiva_buildout/modules/zope_build/parts/mssqlconf"
+
+sqlacodegen mssql+pyodbc://'jiva_65dev_user:J!va_6S03V_user@jiva_65_dev' --noinflect --tables=cpm_categories --outfile=cpm_categories.txt --nojoined
+
+
+
+*Queries
+sp_helptext 'cpm_categories'
+
+
+*Notes Reference by sir
+https://docs.sqlalchemy.org/en/14/orm/session_api.html#sqlalchemy.orm.Session
+https://martinfowler.com/eaaCatalog/identityMap.html
+https://docs.sqlalchemy.org/en/13/orm/extensions/declarative/index.html
+https://martinfowler.com/eaaCatalog/identityMap.html
+https://docs.sqlalchemy.org/en/14/orm/basic_relationships.html

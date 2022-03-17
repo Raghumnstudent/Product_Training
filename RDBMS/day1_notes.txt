@@ -1,0 +1,6 @@
+login credential:
+
+server: 172.27.2.59\SQL2019
+user id: training_user
+pwd : Training@123
+
